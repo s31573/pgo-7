@@ -15,7 +15,7 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         int number = sc.nextInt();
         if(number < 0) throw new NegativeNumberException("Negative numbers are not allowed");
-        return sc.nextInt();
+        return number;
     }
 
     public static void fillArray(){
